@@ -15,6 +15,6 @@ const personalMovieDB = {
 let lastMovie = prompt("Один из последних просмотренных фильмов?");
 let rating = prompt("На сколько оцените его?");
 
-personalMovieDB.movies = `${lastMovie}: ${rating}`;
+personalMovieDB.movies = `'${lastMovie}': '${rating}'`;
 
 console.log(personalMovieDB.movies);
