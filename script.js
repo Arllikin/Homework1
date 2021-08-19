@@ -62,6 +62,10 @@ const personalMovieDB = {
             if (personalMovieDB.genres[i] == null || personalMovieDB.genres[i] == '') {
                 i--;
             }
+        };
+
+        for (let i = 0; i < 3; i++) {
+            console.log(`Любимый жанр ${i+1} - это ${personalMovieDB.genres[i]}`)
         }
     }
 }
@@ -149,6 +153,10 @@ const personalMovieDB = {
 //     }
 // }
 
-writeYourGenres();
+// personalMovieDB.writeYourGenres();
+
+console.log(personalMovieDB);
+
+personalMovieDB.toggleVisibleMyDB ();
 
 console.log(personalMovieDB);
